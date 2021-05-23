@@ -1,0 +1,50 @@
+.about-conteiner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-about {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-tehnic {
+  display: flex;
+}
+
+.about-svg {
+  width: 70px;
+  height: 70px;
+}
+
+.svg-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: $colorsecond-bg;
+}
+.about-title {
+  display: block;
+  padding-top: 30px;
+  margin: 0px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $colortitle-cl;
+}
+.about-item:not(:last-child) {
+  padding-right: 30px;
+}
+.aboutus-text {
+  margin: 0px;
+  padding-top: 10px;
+  width: 270px;
+  height: 75px;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--alt-text-cl);
+}
